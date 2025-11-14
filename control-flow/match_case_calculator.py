@@ -1,18 +1,18 @@
-first_number = int (input ("Enter the first number:"))
-second_number = int (input ("Enter the second number:"))
-operation = input ("Choose the operation (+, -, *, /):")
+num1 = int (input ("Enter the first number: "))
+num2 = int (input ("Enter the second number: "))
+operation = input ("Choose the operation (+, -, *, /): ")
 match operation:
     case "+":
-        result = first_number + second_number  
+        result = num1 + num2  
     case "-":
-        result = first_number - second_number
+        result = num1 - num2
     case "*":
-        result = first_number * second_number
+        result = num1 * num2
     case "/":
-            if second_number == 0:
+            if num2 == 0:
                 result = "Cannot divide by zero."
             else:
-                result = first_number / second_number
+                result = num1 / num2
     case _:
         result = "Invalid operation"
 print (f"The result is {result}.")
