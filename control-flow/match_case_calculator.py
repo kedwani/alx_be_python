@@ -16,5 +16,3 @@ match operation:
                 result = num1 / num2
     case _:
         result = "Invalid operation"
-#print (f"The result is {result}.")
-#print ("The result is ", result, ".", sep="")
