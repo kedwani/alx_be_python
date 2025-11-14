@@ -17,4 +17,4 @@ match operation:
     case _:
         result = "Invalid operation"
 #print (f"The result is {result}.")
-print ("The result is ", result, ".", sep="")
+#print ("The result is ", result, ".", sep="")
