@@ -1,2 +1,2 @@
-for i in 'sayed':
-    print(i)
+list = [10, 20, 30, 40, 50]
+print(list[::-1])
